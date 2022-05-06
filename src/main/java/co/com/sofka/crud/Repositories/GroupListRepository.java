@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface GroupListRepository extends CrudRepository<GroupList, Long> {
+
 }

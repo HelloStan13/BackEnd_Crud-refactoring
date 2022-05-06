@@ -26,7 +26,7 @@ public class GroupListController {
         if(groupList.getId() != null){
             return service.save(groupList);
         }
-        throw new RuntimeException("No existe el id para actualziar");
+        throw new RuntimeException("No existe el id");
     }
 
     @DeleteMapping(value = "api/{id}/grouplist")

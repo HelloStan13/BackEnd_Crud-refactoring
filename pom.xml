@@ -6,12 +6,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.3.4.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>co.com.sofka</groupId>
 	<artifactId>crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>crud</name>
+	<name>Crud Kata Todo by Adryan</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -27,7 +27,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.8.1</version>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>

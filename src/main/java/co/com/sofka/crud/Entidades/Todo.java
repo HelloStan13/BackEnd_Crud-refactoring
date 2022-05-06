@@ -15,6 +15,7 @@ public class Todo {
     private boolean completed;
     private Long groupListId;
 
+
     public Long getGroupListId() {
         return groupListId;
     }
