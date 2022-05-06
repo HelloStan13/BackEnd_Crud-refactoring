@@ -26,6 +26,6 @@ server.port=9095
 
 
 ## Video Explicación 
-https://www.loom.com/share/834db69d821d4d888a1df052213b38a3
+[VIDEO Kata Crud Adryan](https://youtu.be/b9IWCRAQ3jM)
 
 ## con ❤️ por  [Adryan Ynfante](https://github.com/HelloStan13)🍿
