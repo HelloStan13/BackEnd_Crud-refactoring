@@ -23,3 +23,9 @@ spring.datasource.url=jdbc:mysql://localhost:3306/kata_todo --> la base
 spring.datasource.username=root
 spring.datasource.password=123456789
 server.port=9095
+
+
+## Video Explicación 
+https://www.loom.com/share/834db69d821d4d888a1df052213b38a3
+
+## con ❤️ por  [Adryan Ynfante](https://github.com/HelloStan13)🍿
