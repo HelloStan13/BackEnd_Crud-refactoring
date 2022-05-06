@@ -13,4 +13,16 @@ public class GroupListService {
     public Iterable<GroupList> list(){
         return repository.findAll();
     }
+
+    public GroupList save(GroupList groupList){
+        return repository.save(groupList);
+    }
+
+    public void delete(Long id){
+        repository.delete(get(id));
+    }
+
+    public GroupList get(Long id){
+        return repository.findById(id).orElseThrow();
+    }
 }
