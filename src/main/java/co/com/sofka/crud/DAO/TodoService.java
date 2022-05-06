@@ -6,7 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.stream.StreamSupport;
-
+/*
+ * @version 1.0
+ * @autor Adryan Ynfante <adryanynfante@gmail.com>
+ * servicio de grupo declaramos los métodos que se implementaran en el controller
+ */
 @Service
 public class TodoService {
 

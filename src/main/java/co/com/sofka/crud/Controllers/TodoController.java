@@ -4,9 +4,12 @@ import co.com.sofka.crud.Entidades.Todo;
 import co.com.sofka.crud.DAO.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-
+/*
+ * @version 2.0
+ * @autor Adryan Ynfante <adryanynfante@gmail.com>
+ * Controller de tareas endpoint api/grouplists, declaramos origen para admitir la conexion del front,
+ * metodos guardar, editar , eliminar y  actualizar tareas
+ */
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
 public class TodoController {

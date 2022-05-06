@@ -4,6 +4,12 @@ import co.com.sofka.crud.Entidades.GroupList;
 import co.com.sofka.crud.DAO.GroupListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+/*
+ * @version 1.0
+ * @autor Adryan Ynfante <adryanynfante@gmail.com>
+ * Controller grupo de tareas endpoint api/grouplists, declaramos origen para admitir la conexion del front,
+ * metodos guardar, editar , eliminar
+ */
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")

@@ -4,7 +4,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/*
+ * @version 1.0
+ * @autor Adryan Ynfante <adryanynfante@gmail.com>
+ * se decalaran losa tributos de tareas junto a sus get and setter y constructor
+ */
 @Entity
 @Table(name="todo")
 public class Todo {
